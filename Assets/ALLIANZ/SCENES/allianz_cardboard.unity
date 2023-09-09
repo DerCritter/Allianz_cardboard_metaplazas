@@ -469,7 +469,7 @@ MonoBehaviour:
   animator: {fileID: 304097282}
   AnimationName: screen_mainAction
   videoStartDelay: 1
-  AutoRotate: 1
+  StartWithVideo: 1
 --- !u!1 &389255504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   animator: {fileID: 1492370025}
   AnimationName: screen_1_action
   videoStartDelay: 1
-  AutoRotate: 0
+  StartWithVideo: 0
 --- !u!1 &1490385947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,7 +2270,7 @@ MonoBehaviour:
   animator: {fileID: 521076516}
   AnimationName: screen_2_action
   videoStartDelay: 1
-  AutoRotate: 0
+  StartWithVideo: 0
 --- !u!1001 &1953785809
 PrefabInstance:
   m_ObjectHideFlags: 0
