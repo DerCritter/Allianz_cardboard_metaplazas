@@ -51,8 +51,14 @@ public class Interactable : MonoBehaviour
 
         if (!isPlaying && view == View.Video)
         {
-            videoPlayer.Play();
+            StartCoroutine(StartDelayedVideo(0));
+            return;
         }
+        // else if(isPlaying && view == View.Video)
+        // {
+        //     videoPlayer.Stop();
+        //     return;
+        // }
 
 
         if (!StartWithVideo)
