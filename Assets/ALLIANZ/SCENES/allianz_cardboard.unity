@@ -580,7 +580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 304097282}
   AnimationName: screen_mainAction
-  videoStartDelay: 1
+  videoStartDelay: 2
   StartWithVideo: 1
 --- !u!1 &389255504
 GameObject:
@@ -2629,7 +2629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1492370025}
   AnimationName: screen_1_action
-  videoStartDelay: 1
+  videoStartDelay: 2
   StartWithVideo: 0
 --- !u!1 &1459684831
 GameObject:
@@ -3227,7 +3227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 521076516}
   AnimationName: screen_2_action
-  videoStartDelay: 1
+  videoStartDelay: 2
   StartWithVideo: 0
 --- !u!1001 &1808294174
 PrefabInstance:
@@ -3419,7 +3419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 171526, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 482300, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
       propertyPath: m_RootOrder

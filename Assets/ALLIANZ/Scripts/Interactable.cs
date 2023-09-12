@@ -54,11 +54,6 @@ public class Interactable : MonoBehaviour
             StartCoroutine(StartDelayedVideo(0));
             return;
         }
-        // else if(isPlaying && view == View.Video)
-        // {
-        //     videoPlayer.Stop();
-        //     return;
-        // }
 
 
         if (!StartWithVideo)
@@ -87,7 +82,6 @@ public class Interactable : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         view = View.Video;
-        print("PLAYING");
         videoPlayer.Play();
         isPlaying = true;
     }
@@ -97,6 +91,7 @@ public class Interactable : MonoBehaviour
         print("LOOP POINT REACHED");
         animator.Play(AnimationName + " reverse");
         isPlaying = false;
+        firstPlay = false;
         view = View.Text;
     }
 }
